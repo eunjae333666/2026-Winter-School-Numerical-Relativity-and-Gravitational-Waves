@@ -252,8 +252,7 @@ def main():
     #0: fundamental mode
     #1: 1st overtone
     #...
-    dat_output(p=replace(l=2),mode=1)#l=?로 l값 수정 가능
-
+    dat_output(p,mode=1)
     '''
     for i in range(3):
         print(f"\n=== m={i} ===")
